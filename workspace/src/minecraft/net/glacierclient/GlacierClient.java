@@ -16,6 +16,8 @@ import net.minecraft.client.entity.AbstractClientPlayer;
 
 import java.awt.*;
 import java.io.IOException;
+//test commit!
+
 
 public class GlacierClient {
     public String NAME = "Glacier Client", VERSION = "1.0.3/augustine", AUTHOR = "SpyMiner", NAMEVER = NAME + " " + VERSION;
