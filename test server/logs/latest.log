@@ -1,0 +1,48 @@
+[20:27:06] [Server thread/INFO]: Starting minecraft server version 1.8.9
+[20:27:06] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:276) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:282) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:177) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at ko$2.run(SourceFile:81) [server%20(1).jar:?]
+[20:27:06] [Server thread/INFO]: Loading properties
+[20:27:06] [Server thread/INFO]: Default game type: SURVIVAL
+[20:27:06] [Server thread/INFO]: Generating keypair
+[20:27:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:27:07] [Server thread/INFO]: Using default channel type
+[20:27:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:27:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:27:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:27:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:27:07] [Server thread/INFO]: Preparing level "world"
+[20:27:07] [Server thread/INFO]: Preparing start region for level 0
+[20:27:08] [Server thread/INFO]: Done (0.917s)! For help, type "help" or "?"
+[20:27:14] [Server thread/INFO]: Player375[/127.0.0.1:54620] logged in with entity id 398 at (199.5, 56.0, 180.5)
+[20:27:14] [Server thread/INFO]: Player375 joined the game
+[20:27:52] [Server thread/INFO]: Player375 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:27:52] [Server thread/INFO]: Player375 left the game
+[20:31:43] [Server thread/INFO]: Player375[/127.0.0.1:54672] logged in with entity id 758 at (170.31223513550515, 70.0, 251.69999998807907)
+[20:31:43] [Server thread/INFO]: Player375 joined the game
+[20:31:46] [Server thread/INFO]: Player375 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:31:46] [Server thread/INFO]: Player375 left the game
+[20:32:21] [Server thread/INFO]: Player375[/127.0.0.1:54766] logged in with entity id 995 at (172.1069674555553, 71.0, 249.30000001192093)
+[20:32:21] [Server thread/INFO]: Player375 joined the game
+[20:32:39] [Server thread/INFO]: Player375 lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:32:39] [Server thread/INFO]: Player375 left the game
+[22:55:01] [Server thread/INFO]: Stopping the server
+[22:55:01] [Server thread/INFO]: Stopping server
+[22:55:01] [Server thread/INFO]: Saving players
+[22:55:01] [Server thread/INFO]: Saving worlds
+[22:55:01] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:55:01] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:55:01] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[22:55:01] [Server Shutdown Thread/INFO]: Stopping server
+[22:55:01] [Server Shutdown Thread/INFO]: Saving players

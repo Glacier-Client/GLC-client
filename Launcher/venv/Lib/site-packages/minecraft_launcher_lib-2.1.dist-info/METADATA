@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: minecraft-launcher-lib
+Version: 2.1
+Summary: A library for creating a custom Minecraft launcher
+Home-page: https://gitlab.com/JakobDev/minecraft-launcher-lib
+Author: JakobDev
+Author-email: jakobdev@gmx.de
+License: BSD
+Project-URL: Issue tracker, https://gitlab.com/JakobDev/minecraft-launcher-lib/-/issues
+Project-URL: Documentation, https://minecraft-launcher-lib.readthedocs.io/en/latest/index.html
+Keywords: JakobDev,Minecraft,Mojang,launcher,minecraft-launcher,java
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Other Environment
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Games/Entertainment
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# minecraft-launcher-lib
+
+A Python library for creating a custom minecraft launcher. This library containts functions to install and execute minecraft and interacting with mojang accounts.
+
+```python
+import minecraft_launcher_lib
+import subprocess
+
+#Get latest version
+latest_version = minecraft_launcher_lib.utils.get_latest_version()["release"]
+
+#Get Minecraft directory
+minecraft_directory = minecraft_launcher_lib.utils.get_minecraft_directory()
+
+#Make sure, the latest version of Minecraft is installed
+minecraft_launcher_lib.install.install_minecraft_version(latest_version,minecraft_directory)
+
+#Login
+login_data = minecraft_launcher_lib.account.login_user("JohnDoe","secret")
+
+#Get Minecraft command
+options = {
+    "username": login_data["selectedProfile"]["name"],
+    "uuid": login_data["selectedProfile"]["id"],
+    "token": login_data["accessToken"]
+}
+minecraft_command = minecraft_launcher_lib.command.get_minecraft_command(latest_version,minecraft_directory,options)
+
+#Start Minecraft
+subprocess.call(minecraft_command)
+```
+
+Features:
+- Easy installing
+- Get command to run Minecraft
+- Login to Mojang account
+- Support Forge and Liteloader
+- Old versions like alpha or beta supported
+- Documention available
+- Examples available
+- OpenSource
+
+[View more examples](https://gitlab.com/JakobDev/minecraft-launcher-lib/-/tree/master/examples)
+
+[Read the documentation](https://minecraft-launcher-lib.readthedocs.io/en/latest/index.html)
+
+[Thanks to tomsik68 who documented how a minecraft launcher works](https://github.com/tomsik68/mclauncher-api/wiki)
+
+

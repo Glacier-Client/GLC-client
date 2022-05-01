@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GLC:jar">
+    <output-path>$PROJECT_DIR$/../../../export/artifacts/GLC_jar</output-path>
+    <root id="archive" name="Client.jar">
+      <element id="module-output" name="Client" />
+      <element id="library" level="module" name="vecmath.jar" module-name="Client" />
+      <element id="library" level="module" name="twitch-6.5.jar" module-name="Client" />
+      <element id="library" level="module" name="soundsystem-20120107.jar" module-name="Client" />
+      <element id="library" level="module" name="codecjorbis-20101023.jar" module-name="Client" />
+      <element id="library" level="project" name="1.8.8.jar" />
+      <element id="library" level="module" name="authlib-1.5.21.jar" module-name="Client" />
+      <element id="library" level="module" name="codecwav-20101023.jar" module-name="Client" />
+      <element id="library" level="module" name="commons-codec-1.9.jar" module-name="Client" />
+      <element id="library" level="module" name="commons-compress-1.8.1.jar" module-name="Client" />
+      <element id="library" level="module" name="commons-logging-1.1.3.jar" module-name="Client" />
+      <element id="library" level="module" name="commons-lang3-3.3.2.jar" module-name="Client" />
+      <element id="library" level="module" name="commons-io-2.4.jar" module-name="Client" />
+      <element id="library" level="module" name="discord-rpc.jar" module-name="Client" />
+      <element id="library" level="module" name="guava-17.0.jar" module-name="Client" />
+      <element id="library" level="module" name="gson-2.2.4.jar" module-name="Client" />
+      <element id="library" level="module" name="httpclient-4.3.3.jar" module-name="Client" />
+      <element id="library" level="module" name="httpcore-4.3.2.jar" module-name="Client" />
+      <element id="library" level="module" name="icu4j-core-mojang-51.2.jar" module-name="Client" />
+      <element id="library" level="module" name="jinput-2.0.5.jar" module-name="Client" />
+      <element id="library" level="module" name="jna-3.4.0.jar" module-name="Client" />
+      <element id="library" level="module" name="jopt-simple-4.6.jar" module-name="Client" />
+      <element id="library" level="module" name="jutils-1.0.0.jar" module-name="Client" />
+      <element id="library" level="module" name="libraryjavasound-20101123.jar" module-name="Client" />
+      <element id="library" level="module" name="librarylwjglopenal-20100824.jar" module-name="Client" />
+      <element id="library" level="module" name="log4j-api-2.0-beta9.jar" module-name="Client" />
+      <element id="library" level="module" name="log4j-core-2.0-beta9.jar" module-name="Client" />
+      <element id="library" level="module" name="slick.jar" module-name="Client" />
+      <element id="library" level="module" name="realms-1.7.39.jar" module-name="Client" />
+      <element id="library" level="module" name="platform-3.4.0.jar" module-name="Client" />
+      <element id="library" level="module" name="oshi-core-1.1.jar" module-name="Client" />
+      <element id="library" level="module" name="netty-all-4.0.23.Final.jar" module-name="Client" />
+      <element id="library" level="module" name="lwjgl_util-2.9.4-nightly-20150209.jar" module-name="Client" />
+      <element id="library" level="module" name="lwjgl-2.9.4-nightly-20150209.jar" module-name="Client" />
+    </root>
+  </artifact>
+</component>
