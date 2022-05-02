@@ -1,11 +1,10 @@
 package net.glacierclient.mod.impl.cosmetics;
 
-import net.glacierclient.mod.management.Category;
 import net.glacierclient.mod.management.ModNoGUI;
 
 public class OneDotSevenAnimations extends ModNoGUI {
     public OneDotSevenAnimations() {
-        super("1.7 Animations","1.7 Animations", Category.MISC);
+        super("1.7 Animations","1.7 Animations");
     }
     public void onEnable()
     {

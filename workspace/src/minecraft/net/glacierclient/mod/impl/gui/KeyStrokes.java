@@ -2,6 +2,7 @@ package net.glacierclient.mod.impl.gui;
 
 import java.awt.Color;
 import net.glacierclient.mod.management.HudMod;
+import org.lwjgl.Sys;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
@@ -16,7 +17,7 @@ public class KeyStrokes extends HudMod {
     public KeyStrokes()
     {
         super("Keystrokes", 5, 110, false);
-    } //x500
+    }
     public KeyStrokes(boolean forceNew)
     {
         super("Keystrokes", 5, 110, forceNew);
@@ -120,7 +121,18 @@ public class KeyStrokes extends HudMod {
 
 	@Override
 	public int getHeight() {
-		return 18;
+		if (mode == KeystrokesMode.WASD)
+		{
+			return 39;
+		}
+		else if (mode == KeystrokesMode.WASD_MOUSE || mode == KeystrokesMode.WASD_JUMP)
+		{
+			return 60;
+		}
+		else
+		{
+			return 81;
+		}
 	}
 
     @Override
@@ -136,6 +148,7 @@ public class KeyStrokes extends HudMod {
             fr.drawString(key.getName(), getX() + key.getX() + key.getWidth() / 2 - textWidth / 2, getY() + key.getY() + key.getHeight() / 2 - 3, key.isDown() ? new Color(0,0,0,255).getRGB() : -1);
         }
         GL11.glPopMatrix();
+		super.draw();
 
 	}
     @Override
@@ -151,5 +164,6 @@ public class KeyStrokes extends HudMod {
             fr.drawString(key.getName(), getX() + key.getX() + key.getWidth() / 2 - textWidth / 2, getY() + key.getY() + key.getHeight() / 2 - 3, key.isDown() ? new Color(0,0,0,255).getRGB() : -1);
         }
         GL11.glPopMatrix();
+		super.renderDummy(mouseX, mouseY);
     }
 }

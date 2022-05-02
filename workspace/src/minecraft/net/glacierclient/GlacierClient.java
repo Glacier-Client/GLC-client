@@ -6,29 +6,32 @@ import net.glacierclient.event.EventTarget;
 import net.glacierclient.event.impl.ClientTick;
 import net.glacierclient.http.API;
 import net.glacierclient.mod.impl.util.DiscordRP;
+import net.glacierclient.mod.ui.BanScreen;
 import net.glacierclient.mod.ui.SplashProgress;
 import net.glacierclient.mod.ui.clientsettings.ClientSettings;
 import net.glacierclient.mod.ui.clientsettings.hudposconfig.HUDPosConfig;
 import net.glacierclient.mod.management.HudManager;
 import net.glacierclient.mod.management.ModManager;
+import net.glacierclient.util.SessionChanger;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.entity.AbstractClientPlayer;
+import org.json.JSONObject;
 
 import java.awt.*;
 import java.io.IOException;
-//test commit!
 
 
 public class GlacierClient {
-    public String NAME = "Glacier Client", VERSION = "1.0.3/augustine", AUTHOR = "SpyMiner", NAMEVER = NAME + " " + VERSION;
+    public String NAME = "Glacier Client", VERSION = "1.0.3/augustine", AUTHOR = "SpyMiner", NAMEVER = NAME + " " + VERSION, playerUUID, playerName, banReason;
+    public boolean isBanned;
     public static GlacierClient INSTANCE = new GlacierClient();
     public Minecraft mc = Minecraft.getMinecraft();
     public DiscordRP discordRP = new DiscordRP();
     public EventManager eventManager;
     public ModManager modManager;
     public HudManager hudManager;
+    public JSONObject jsonObj;
 
-    public void startup() throws IOException {
+    public void startup(){
         SplashProgress.setProggress(6, "Client - Discord RP");
         discordRP.start();
         SplashProgress.setProggress(7, "Client - Loading Mods");
@@ -36,13 +39,32 @@ public class GlacierClient {
         modManager = new ModManager();
         hudManager = new HudManager();
         System.out.println("Starting " + NAMEVER + " by " + AUTHOR);
-        //API.get("user/isbanned/" + "8288a11447b84f5a83d7aefe66c46a47"));
+        SessionChanger.getInstance().setUserOffline("SpyMiner");
+        try
+        {
+            playerUUID = API.get("user/playerUUID/txt/" + mc.getSession().getUsername()).replaceAll("\"", "");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        playerName = mc.getSession().getUsername();
+        try
+        {
+            jsonObj = new JSONObject(API.get("user/isbanned/" + playerUUID));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        if(jsonObj.getInt("isBanned") == 1)
+        {
+            isBanned = true;
+            banReason = jsonObj.getString("banReason");
+        }
 
         eventManager.register(this);
     }
 
 
-    public void shutdown() throws IOException {
+    public void shutdown(){
         System.out.println("Stopping " + NAMEVER + " by " + AUTHOR);
         discordRP.shutdown();
         //System.out.println(API.get("client/logout/" + mc.getSession().getProfile().getId().toString()));
@@ -62,6 +84,10 @@ public class GlacierClient {
         if(mc.gameSettings.CLIENT_SETTINGS.isPressed())
         {
             mc.displayGuiScreen(new ClientSettings());
+        }
+        if(isBanned)
+        {
+            mc.displayGuiScreen(new BanScreen(banReason));
         }
 
     }

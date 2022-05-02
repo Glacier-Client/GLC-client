@@ -9,14 +9,13 @@ public class ModNoGUI
     public Minecraft mc = Minecraft.getMinecraft();
     public String name, description;
     public boolean enabled;
-    public static boolean capeEnable;
-    public Category category;
 
-    public ModNoGUI(String name, String description, Category category )
+
+    public ModNoGUI(String name, String description)
     {
         this.name = name;
         this.description = description;
-        this.category = category;
+
     }
 
     public void onEnable()
@@ -30,7 +29,6 @@ public class ModNoGUI
     public void setEnable(boolean enabled)
     {
         this.enabled = enabled;
-        this.capeEnable = enabled;
         if(enabled)
         {
             onEnable();
@@ -46,18 +44,15 @@ public class ModNoGUI
     }
 
     public boolean isEnabled() {
-        return enabled;
+        return this.enabled;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public String getDescription() {
-        return description;
+        return this.description;
     }
 
-    public Category getCategory() {
-        return category;
-    }
 }

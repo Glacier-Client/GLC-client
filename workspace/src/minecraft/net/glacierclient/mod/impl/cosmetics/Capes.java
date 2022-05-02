@@ -1,44 +1,31 @@
 package net.glacierclient.mod.impl.cosmetics;
 
-import net.glacierclient.mod.management.Category;
+import net.glacierclient.GlacierClient;
+import net.glacierclient.http.API;
 import net.glacierclient.mod.management.ModNoGUI;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.AbstractClientPlayer;
+import net.minecraft.util.ResourceLocation;
+
+import java.io.IOException;
 
 public class Capes extends ModNoGUI {
 
     public Capes() {
-        super("Capes", "A mod that adds custom capes", Category.COSMETIC);
+        super("Capes", "A mod that adds custom capes");
     }
 
-    public static boolean ownsCape(AbstractClientPlayer entitylivingbaseIn, int capeID)
+    public static boolean capeEquiped(AbstractClientPlayer entitylivingbaseIn)
     {
-        if (entitylivingbaseIn.getName().equals(Minecraft.getMinecraft().getSession().getUsername()) && capeID == 0) //entitylivingbaseIn.getName().equals(Minecraft.getMinecraft().getSession().getUsername())
-        {
-            return true;
-        }
-        else if(entitylivingbaseIn.getName().equals("SpyMiner"))
-        {
-            return true;
-        }
-        else return false;
+            if (entitylivingbaseIn.getName().equals(Minecraft.getMinecraft().getSession().getUsername())) {
+                return true;
+            } else if (entitylivingbaseIn.getName().equals("SpyMiner")) {
+                return true;
+            } else return false;
     }
+    public static ResourceLocation getCape(AbstractClientPlayer entitylivingbaseIn){
 
-    public static boolean ownsAndSelectedCape(AbstractClientPlayer entitylivingbaseIn, int capeID)
-    {
-        if (entitylivingbaseIn.getName().equals(Minecraft.getMinecraft().getSession().getUsername()) && capeID == 0) //entitylivingbaseIn.getName().equals(Minecraft.getMinecraft().getSession().getUsername())
-        {
-            return true;
-        }
-        else if(entitylivingbaseIn.getName().equals("SpyMiner") && capeID == 1)
-        {
-            return true;
-        }
-        else if(entitylivingbaseIn.getName().equals("oYugo") && capeID == 1)
-        {
-            return true;
-        }
-        else return false;
+        return new ResourceLocation("glacier/capes/GlacierBackground.png");
     }
 
     @Override
@@ -46,6 +33,11 @@ public class Capes extends ModNoGUI {
     {
         super.onEnable();
         System.out.println("Loading Capes");
+        try{
+            System.out.println(API.get("user/assets/equipedCape/txt/" + GlacierClient.INSTANCE.playerUUID).replaceAll("\"", ""));
+        } catch (IOException e) {
+        e.printStackTrace();
+    }
     }
     @Override
     public void onDisable()

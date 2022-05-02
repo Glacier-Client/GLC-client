@@ -27,7 +27,6 @@ public class API
 
 
         int status = connection.getResponseCode();
-        System.out.println(status);
         if(status > 299)
         {
             reader = new BufferedReader(new InputStreamReader(connection.getErrorStream()));

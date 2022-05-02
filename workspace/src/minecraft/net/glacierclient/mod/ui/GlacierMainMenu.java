@@ -8,6 +8,8 @@ import org.lwjgl.opengl.GL11;
 
 import java.awt.*;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 public class GlacierMainMenu extends GuiScreen {
 
@@ -33,31 +35,27 @@ public class GlacierMainMenu extends GuiScreen {
     @Override
     public void initGui()
     {
-        this.buttonList.add(new GuiButton(1, width - 210, height - 110, "Singleplayer"));
-        this.buttonList.add(new GuiButton(2, width - 210, height - 88, "Multiplayer"));
-        this.buttonList.add(new GuiButton(3, width - 210, height - 66, "Options"));
-        this.buttonList.add(new GuiButton(4, width - 210, height - 44, "Quit"));
+        this.buttonList.add(new GuiButton(1, width - 210, height - 131, 200, 20, "Singleplayer"));
+        this.buttonList.add(new GuiButton(2, width - 210, height - 109, 200, 20, "Multiplayer"));
+        this.buttonList.add(new GuiButton(3, width - 210, height - 87, 200, 20, "Options"));
+        this.buttonList.add(new GuiButton(4, width - 210, height - 44, 200, 20, "Quit"));
+        this.buttonList.add(new GuiButton(10, width - 210, height - 65, 99, 20, "Website"));
+        this.buttonList.add(new GuiButton(11, width - 109, height - 65, 99, 20, "Discord"));
         super.initGui();
     }
     @Override
     protected void actionPerformed(GuiButton button) throws IOException
     {
-        if(button.id == 1)
+        switch (button.id)
         {
-            mc.displayGuiScreen(new GuiSelectWorld(this));
+            case 1: mc.displayGuiScreen(new GuiSelectWorld(this)); break;
+            case 2: mc.displayGuiScreen(new GuiMultiplayer(this)); break;
+            case 3: mc.displayGuiScreen(new GuiOptions(this, mc.gameSettings)); break;
+            case 4: mc.shutdown(); break;
+            case 10: try{ Desktop.getDesktop().browse(new URI("https://www.glacierclient.net"));} catch (IOException e) {e.printStackTrace();} catch (URISyntaxException e) {e.printStackTrace();} break;
+            case 11: try{ Desktop.getDesktop().browse(new URI("https://www.glacierclient.net/discord"));} catch (IOException e) {e.printStackTrace();} catch (URISyntaxException e) {e.printStackTrace();} break;
         }
-        if(button.id == 2)
-        {
-            mc.displayGuiScreen(new GuiMultiplayer(this));
-        }
-        if(button.id == 3)
-        {
-            mc.displayGuiScreen(new GuiOptions(this, mc.gameSettings));
-        }
-        if(button.id == 4)
-        {
-            mc.shutdown();
-        }
+
         super.actionPerformed(button);
     }
 

@@ -70,7 +70,7 @@ public class HudMod {
     }
 
     public void saveHudMod() {
-        File file = new File("GlacierClientConfig/Mods/GUI/" + this.name + ".spyminer");
+        File file = new File("GlacierClientConfig/Mods/GUI/" + this.name + ".spyminerCONF");
         if (!file.exists()) {
             try {
                 File directory = new File(file.getParent());
@@ -97,7 +97,7 @@ public class HudMod {
     public void loadHudMod(int xNew, int yNew, String nameNew, boolean forceNew) {
 
         if (!forceNew) {
-            File file = new File("GlacierClientConfig/Mods/GUI/" + (String) this.name + ".spyminer");
+            File file = new File("GlacierClientConfig/Mods/GUI/" + (String) this.name + ".spyminerCONF");
             if (!file.exists()) {
                 drag = new DraggableComponent(xNew, yNew, getWidth(), getHeight(), new Color(0, 0, 0, 0).getRGB(), nameNew, false);
             } else {
@@ -113,7 +113,7 @@ public class HudMod {
             }
             saveHudMod();
         } else {
-            File file = new File("GlacierClientConfig/Mods/GUI/" + (String) this.name + ".SpyMiner");
+            File file = new File("GlacierClientConfig/Mods/GUI/" + (String) this.name + ".spyminerCONF");
             if (!file.exists()) {
                 drag = new DraggableComponent(xNew, yNew, getWidth(), getHeight(), new Color(0, 0, 0, 0).getRGB(), nameNew, false);
                 saveHudMod();

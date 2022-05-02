@@ -20,8 +20,7 @@ public class ClientSettings extends GuiScreen
     }
 
     @Override
-    protected void actionPerformed(GuiButton button) throws IOException
-    {
+    protected void actionPerformed(GuiButton button) throws IOException {
         super.actionPerformed(button);
         switch(button.id)
         {

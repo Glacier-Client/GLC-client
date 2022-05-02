@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.Proxy;
 import java.net.SocketAddress;
+import java.net.URISyntaxException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.text.DecimalFormat;
@@ -1054,8 +1055,6 @@ public class Minecraft implements IThreadListener, IPlayerUsage
             }
 
             this.mcSoundHandler.unloadSounds();
-        } catch (IOException e) {
-            e.printStackTrace();
         } finally
         {
             Display.destroy();
@@ -1072,8 +1071,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     /**
      * Called repeatedly from run()
      */
-    private void runGameLoop() throws IOException
-    {
+    private void runGameLoop() throws IOException, URISyntaxException {
         long i = System.nanoTime();
         this.mcProfiler.startSection("root");
 
@@ -1727,8 +1725,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     /**
      * Runs the current tick.
      */
-    public void runTick() throws IOException
-    {
+    public void runTick() throws IOException, URISyntaxException {
         if (this.rightClickDelayTimer > 0)
         {
             --this.rightClickDelayTimer;

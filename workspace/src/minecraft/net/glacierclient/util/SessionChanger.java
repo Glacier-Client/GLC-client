@@ -54,7 +54,7 @@ public class SessionChanger {
 
     //Sets the session.
     //You need to make this public, and remove the final modifier on the session Object.
-    private void setSession(Session session) {
+    public void setSession(Session session) {
         Minecraft.getMinecraft().session = session;
     }
 

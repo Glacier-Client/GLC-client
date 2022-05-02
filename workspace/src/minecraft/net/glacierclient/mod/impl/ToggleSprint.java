@@ -2,14 +2,13 @@ package net.glacierclient.mod.impl;
 
 import net.glacierclient.event.EventTarget;
 import net.glacierclient.event.impl.EventUpdate;
-import net.glacierclient.mod.management.Category;
 import net.glacierclient.mod.management.ModNoGUI;
 import net.minecraft.potion.Potion;
 
 public class ToggleSprint extends ModNoGUI {
     public ToggleSprint() {
 
-        super("ToggleSprint", "ToggleSprint", Category.MISC);
+        super("ToggleSprint", "ToggleSprint");
     }
 
     @EventTarget
