@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="json.jar">
+    <CLASSES>
+      <root url="jar://$MCP_LOC$/lib/json.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
