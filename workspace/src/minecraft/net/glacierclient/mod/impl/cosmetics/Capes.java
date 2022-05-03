@@ -33,11 +33,7 @@ public class Capes extends ModNoGUI {
     {
         super.onEnable();
         System.out.println("Loading Capes");
-        try{
-            System.out.println(API.get("user/assets/equipedCape/txt/" + GlacierClient.INSTANCE.playerUUID).replaceAll("\"", ""));
-        } catch (IOException e) {
-        e.printStackTrace();
-    }
+        System.out.println(API.get("user/assets/equipedCape/txt/" + GlacierClient.INSTANCE.playerUUID).replaceAll("\"", ""));
     }
     @Override
     public void onDisable()

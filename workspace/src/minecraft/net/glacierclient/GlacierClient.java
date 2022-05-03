@@ -39,20 +39,13 @@ public class GlacierClient {
         modManager = new ModManager();
         hudManager = new HudManager();
         System.out.println("Starting " + NAMEVER + " by " + AUTHOR);
+
         SessionChanger.getInstance().setUserOffline("SpyMiner");
-        try
-        {
-            playerUUID = API.get("user/playerUUID/txt/" + mc.getSession().getUsername()).replaceAll("\"", "");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+        playerUUID = API.get("user/playerUUID/txt/" + mc.getSession().getUsername()).replaceAll("\"", "");
         playerName = mc.getSession().getUsername();
-        try
-        {
-            jsonObj = new JSONObject(API.get("user/isbanned/" + playerUUID));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+        jsonObj = new JSONObject(API.get("user/isbanned/" + playerUUID));
 
         if(jsonObj.getInt("isBanned") == 1)
         {
@@ -67,7 +60,7 @@ public class GlacierClient {
     public void shutdown(){
         System.out.println("Stopping " + NAMEVER + " by " + AUTHOR);
         discordRP.shutdown();
-        //System.out.println(API.get("client/logout/" + mc.getSession().getProfile().getId().toString()));
+        //System.out.println(API.get("client/logout/" + playerUUID));
 
         hudManager.saveAllMods();
 
