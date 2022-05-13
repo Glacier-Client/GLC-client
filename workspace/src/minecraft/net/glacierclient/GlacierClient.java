@@ -21,7 +21,7 @@ import java.io.IOException;
 
 
 public class GlacierClient {
-    public String NAME = "Glacier Client", VERSION = "1.0.3/augustine", AUTHOR = "SpyMiner", NAMEVER = NAME + " " + VERSION, playerUUID, playerName, banReason;
+    public String NAME = "Glacier Client", VERSION = "1.0.3/augustine", AUTHOR = "SpyMiner", NAMEVER = NAME + " " + VERSION, WINDOWTITLE = "Glacier Client - 1.8.9",  playerUUID, playerName, banReason;
     public boolean isBanned;
     public static GlacierClient INSTANCE = new GlacierClient();
     public Minecraft mc = Minecraft.getMinecraft();

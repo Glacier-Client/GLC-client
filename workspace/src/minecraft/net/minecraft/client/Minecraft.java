@@ -629,7 +629,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     private void createDisplay() throws LWJGLException
     {
         Display.setResizable(true);
-        Display.setTitle("Glacier Client - 1.8.8");
+        Display.setTitle(GlacierClient.INSTANCE.WINDOWTITLE);
 
         try
         {

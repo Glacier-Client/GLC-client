@@ -1,0 +1,129 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 13/05/22 21:19
+Description: Rendering entity in world
+
+java.lang.NullPointerException: Rendering entity in world
+	at net.minecraft.entity.Entity.getDistanceSqToEntity(Entity.java:1352)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:540)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:34)
+	at net.minecraft.client.renderer.entity.Render.doRender(Render.java:63)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.doRender(RendererLivingEntity.java:216)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:67)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:22)
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:399)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityWithPosYaw(RenderManager.java:379)
+	at net.minecraft.client.gui.inventory.GuiInventory.drawEntityOnScreen(GuiInventory.java:121)
+	at net.glacierclient.mod.impl.gui.TargetHUD.renderTargetHud(TargetHUD.java:57)
+	at net.glacierclient.mod.impl.gui.TargetHUD.draw(TargetHUD.java:26)
+	at net.glacierclient.mod.management.HudManager.renderMods(HudManager.java:29)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:355)
+	at net.minecraft.client.renderer.EntityRenderer.func_181560_a(EntityRenderer.java:1349)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1136)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:423)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.Entity.getDistanceSqToEntity(Entity.java:1352)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:540)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.renderName(RendererLivingEntity.java:34)
+	at net.minecraft.client.renderer.entity.Render.doRender(Render.java:63)
+	at net.minecraft.client.renderer.entity.RendererLivingEntity.doRender(RendererLivingEntity.java:216)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:67)
+	at net.minecraft.client.renderer.entity.RenderPlayer.doRender(RenderPlayer.java:22)
+
+-- Entity being rendered --
+Details:
+	Entity Type: null (net.minecraft.client.entity.EntityOtherPlayerMP)
+	Entity ID: 145634
+	Entity Name: GLCtest1
+	Entity's Exact location: 211.53, 64.00, 193.06
+	Entity's Block location: 211.00,64.00,193.00 - World: (211,64,193), Chunk: (at 3,4,1 in 13,12; contains blocks 208,0,192 to 223,255,207), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+
+-- Renderer details --
+Details:
+	Assigned renderer: net.minecraft.client.renderer.entity.RenderPlayer@713c8cbb
+	Location: 0.00,0.00,0.00 - World: (0,0,0), Chunk: (at 0,0,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Rotation: 0.0
+	Delta: 1.0
+Stacktrace:
+	at net.minecraft.client.renderer.entity.RenderManager.doRenderEntity(RenderManager.java:399)
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityWithPosYaw(RenderManager.java:379)
+	at net.minecraft.client.gui.inventory.GuiInventory.drawEntityOnScreen(GuiInventory.java:121)
+	at net.glacierclient.mod.impl.gui.TargetHUD.renderTargetHud(TargetHUD.java:57)
+	at net.glacierclient.mod.impl.gui.TargetHUD.draw(TargetHUD.java:26)
+	at net.glacierclient.mod.management.HudManager.renderMods(HudManager.java:29)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:355)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 2 total; [EntityPlayerSP['SpyMiner'/148882, l='MpServer', x=210.90, y=64.00, z=192.80], EntityOtherPlayerMP['GLCtest1'/145634, l='MpServer', x=211.53, y=64.00, z=193.06]]
+	Chunk stats: MultiplayerChunkCache: 70, 70
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: 199.00,64.00,190.00 - World: (199,64,190), Chunk: (at 7,4,14 in 12,11; contains blocks 192,0,176 to 207,255,191), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 582836 game time, 396200 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 54 total; [EntityPlayerSP['SpyMiner'/148882, l='MpServer', x=210.90, y=64.00, z=192.80], EntitySquid['Squid'/139522, l='MpServer', x=202.81, y=58.09, z=160.38], EntityOtherPlayerMP['GLCtest1'/145634, l='MpServer', x=211.53, y=64.00, z=193.06], EntityZombie['Zombie'/144643, l='MpServer', x=255.16, y=11.00, z=239.69], EntityZombie['Zombie'/148096, l='MpServer', x=260.50, y=45.00, z=150.50], EntityCreeper['Creeper'/148097, l='MpServer', x=261.50, y=45.00, z=159.50], EntityCreeper['Creeper'/148996, l='MpServer', x=210.50, y=25.00, z=163.50], EntityItem['item.item.egg'/138514, l='MpServer', x=168.53, y=63.00, z=166.59], EntityItem['item.item.egg'/138515, l='MpServer', x=164.41, y=70.00, z=168.38], EntitySpider['Spider'/142737, l='MpServer', x=271.50, y=48.00, z=228.50], EntityChicken['Chicken'/278, l='MpServer', x=247.31, y=70.00, z=169.47], EntityChicken['Chicken'/279, l='MpServer', x=253.53, y=66.00, z=176.31], EntityItem['item.item.egg'/137498, l='MpServer', x=257.09, y=70.00, z=165.06], EntityCreeper['Creeper'/146331, l='MpServer', x=273.50, y=16.00, z=199.50], EntityCreeper['Creeper'/146332, l='MpServer', x=275.50, y=16.00, z=199.50], EntityBat['Bat'/145698, l='MpServer', x=246.84, y=20.16, z=205.75], EntityBat['Bat'/147874, l='MpServer', x=238.84, y=33.94, z=235.44], EntityBat['Bat'/145699, l='MpServer', x=248.47, y=19.41, z=212.66], EntityZombie['Zombie'/144928, l='MpServer', x=235.69, y=42.00, z=198.53], EntityBat['Bat'/147873, l='MpServer', x=237.75, y=36.10, z=233.25], EntityBat['Bat'/132010, l='MpServer', x=223.84, y=42.10, z=200.41], EntitySkeleton['Skeleton'/148650, l='MpServer', x=265.69, y=41.13, z=159.28], EntityZombie['Zombie'/148648, l='MpServer', x=176.53, y=19.00, z=208.03], EntityItem['item.item.egg'/138030, l='MpServer', x=167.59, y=66.00, z=162.34], EntityChicken['Chicken'/306, l='MpServer', x=257.06, y=70.00, z=165.44], EntityChicken['Chicken'/308, l='MpServer', x=266.59, y=65.00, z=181.34], EntitySquid['Squid'/148664, l='MpServer', x=148.81, y=61.69, z=233.44], EntitySquid['Squid'/148665, l='MpServer', x=148.47, y=60.22, z=242.47], EntityCreeper['Creeper'/145473, l='MpServer', x=251.50, y=21.00, z=216.50], EntityZombie['Zombie'/147909, l='MpServer', x=177.50, y=15.00, z=209.50], EntityBat['Bat'/145608, l='MpServer', x=254.75, y=41.10, z=232.25], EntityChicken['Chicken'/204, l='MpServer', x=167.66, y=66.00, z=162.56], EntityChicken['Chicken'/205, l='MpServer', x=168.66, y=64.00, z=165.50], EntityChicken['Chicken'/206, l='MpServer', x=164.34, y=70.00, z=168.66], EntityEnderman['Enderman'/145745, l='MpServer', x=176.50, y=13.00, z=214.50], EntityItem['item.item.egg'/138074, l='MpServer', x=253.50, y=66.00, z=176.25], EntitySkeleton['Skeleton'/146907, l='MpServer', x=250.50, y=11.00, z=238.50], EntityBat['Bat'/148443, l='MpServer', x=212.00, y=20.59, z=151.75], EntitySkeleton['Skeleton'/146527, l='MpServer', x=244.50, y=34.00, z=239.50], EntityItem['item.item.egg'/141916, l='MpServer', x=266.75, y=65.00, z=181.47], EntityOtherPlayerMP['GLCtest1'/145634, l='MpServer', x=211.53, y=64.00, z=193.06], EntityCreeper['Creeper'/146530, l='MpServer', x=243.50, y=34.00, z=241.00], EntityCreeper['Creeper'/146274, l='MpServer', x=276.50, y=17.00, z=199.50], EntitySkeleton['Skeleton'/146528, l='MpServer', x=238.50, y=34.00, z=235.50], EntitySkeleton['Skeleton'/143329, l='MpServer', x=240.50, y=34.00, z=243.50], EntityChicken['Chicken'/227, l='MpServer', x=182.22, y=73.00, z=148.47], EntityZombie['Zombie'/148582, l='MpServer', x=277.47, y=18.00, z=198.03], EntitySkeleton['Skeleton'/136941, l='MpServer', x=238.16, y=41.00, z=200.69], EntityItem['item.item.egg'/141677, l='MpServer', x=181.69, y=71.00, z=149.91], EntityBat['Bat'/146418, l='MpServer', x=267.50, y=38.10, z=202.53], EntityCreeper['Creeper'/148979, l='MpServer', x=223.50, y=37.00, z=203.50], EntityCreeper['Creeper'/148980, l='MpServer', x=224.50, y=37.00, z=204.50], EntityCreeper['Creeper'/147320, l='MpServer', x=207.50, y=20.00, z=152.50], EntityBat['Bat'/141182, l='MpServer', x=223.53, y=42.10, z=200.66]]
+	Retry entities: 0 total; []
+	Server brand: vanilla
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:401)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2754)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:444)
+	at net.minecraft.client.main.Main.main(Main.java:113)
+	at Start.main(Start.java:11)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 16x AMD Ryzen 7 1700X Eight-Core Processor 
+	Java Version: 1.8.0_322, Temurin
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+	Memory: 372956152 bytes (355 MB) / 653787136 bytes (623 MB) up to 3803185152 bytes (3627 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: AMD Radeon HD 7700 Series GL version 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 16x AMD Ryzen 7 1700X Eight-Core Processor 
+	OptiFine Version: OptiFine_1.8.8_HD_U_H8
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003
+	OpenGlRenderer: AMD Radeon HD 7700 Series
+	OpenGlVendor: ATI Technologies Inc.
+	CpuCount: 16

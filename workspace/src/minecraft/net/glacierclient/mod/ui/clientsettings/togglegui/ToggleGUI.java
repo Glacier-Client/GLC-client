@@ -33,10 +33,9 @@ public class ToggleGUI extends GuiScreen {
         this.modButtonsGUIMod.add(new ModButtonGUIMod(60, 160,80, 10, GlacierClient.INSTANCE.hudManager.memoryUsedMod));
         this.modButtonsGUIMod.add(new ModButtonGUIMod(150, 60, 80,10, GlacierClient.INSTANCE.hudManager.realTimeDisplay));
         this.modButtonsGUIMod.add(new ModButtonGUIMod(150, 80, 80,10, GlacierClient.INSTANCE.hudManager.keyStrokes));
-        //this.modButtonsGUIMod.add(new ModButtonGUIMod(60, 140,80,10, GlacierClient.INSTANCE.hudManager.keyStrokes));
+
         this.modButtons.add(new ModButtonMod(240,60, 240,10, GlacierClient.INSTANCE.modManager.toggleSprint));
         this.modButtons.add(new ModButtonMod(240,80, 240,10, GlacierClient.INSTANCE.modManager.oneDotSevenAnimations));
-        this.modButtons.add(new ModButtonMod(240,100, 240,10, GlacierClient.INSTANCE.modManager.capes));
     }
 
     @Override

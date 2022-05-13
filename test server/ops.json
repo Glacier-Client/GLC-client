@@ -1,5 +1,23 @@
 [
   {
+    "uuid": "522e6ed2-5a3f-391f-a919-e5a81e6f55dc",
+    "name": "glctest",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "2b839420-6d04-3213-a2e4-ba80f889a7ff",
+    "name": "SpyMiner",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "bc96e461-7089-312c-b522-7e3fecff2129",
+    "name": "GLCtest1",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "2a1dbdad-4c67-3be9-94f7-29e916d930b4",
     "name": "@a",
     "level": 4,
