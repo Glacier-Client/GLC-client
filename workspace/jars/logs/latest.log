@@ -172,3 +172,12 @@
 [21:51:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
 [21:51:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
 [21:51:49] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[22:01:25] [Server thread/INFO]: Stopping server
+[22:01:25] [Server thread/INFO]: Saving players
+[22:01:25] [Server thread/INFO]: Saving worlds
+[22:01:25] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[22:01:25] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[22:01:25] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[22:01:26] [Client thread/INFO]: Stopping!
+[22:01:26] [Client thread/INFO]: SoundSystem shutting down...
+[22:01:26] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
