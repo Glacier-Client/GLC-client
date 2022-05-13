@@ -19,7 +19,7 @@ public class DiscordRP {
             @Override
             public void apply(DiscordUser user) {
                 System.out.println("Welcome " + user.username + "#" + user.discriminator);
-                update("Playing Minecraft 1.8.8", "");
+                update("Playing Minecraft 1.8.9", "");
             }
         }).build();
         DiscordRPC.discordInitialize("944777934915399691", handlers, true);
