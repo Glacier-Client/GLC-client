@@ -26,7 +26,7 @@ public class GlacierMainMenu extends GuiScreen {
         this.drawString(mc.fontRendererObj, GlacierClient.INSTANCE.NAME,(width/2) - 85, 42, -1);
         GlStateManager.popMatrix();
 
-        mc.fontRendererObj.drawStringWithShadow(GlacierClient.INSTANCE.VERSION, width - (mc.fontRendererObj.getStringWidth(GlacierClient.INSTANCE.VERSION) + 5), (height - mc.fontRendererObj.FONT_HEIGHT) - 5, -1);
+        mc.fontRendererObj.drawStringWithShadow(GlacierClient.INSTANCE.VERSIONLong, width - (mc.fontRendererObj.getStringWidth(GlacierClient.INSTANCE.VERSIONLong) + 5), (height - mc.fontRendererObj.FONT_HEIGHT) - 5, -1);
         mc.getTextureManager().bindTexture(new ResourceLocation("glacier/logo.png"));
         this.drawModalRectWithCustomSizedTexture( width - 150, 2, 0, 0, 75, 75, 75, 75);
 

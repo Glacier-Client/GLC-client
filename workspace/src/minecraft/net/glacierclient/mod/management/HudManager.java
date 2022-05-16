@@ -10,6 +10,7 @@ public class HudManager {
 
     public ClientNAMEVERHUD clientNAMEVERHUD;
     public FPSMod fps;
+    public CPSMod cps;
     public TargetHUD targetHUD;
     public CoordinatesHud coordinatesHud;
     public ServerDisplay serverDisplay;
@@ -48,6 +49,7 @@ public class HudManager {
         hudMods.add(memoryUsedMod = new MemoryUsedMod());
         hudMods.add(realTimeDisplay = new RealTimeDisplay());
         hudMods.add(keyStrokes = new KeyStrokes());
+        hudMods.add(cps = new CPSMod());
     }
 
     public void unloadAllMods() {
@@ -59,6 +61,7 @@ public class HudManager {
         hudMods.remove(memoryUsedMod);
         hudMods.remove(realTimeDisplay);
         hudMods.remove(keyStrokes);
+        hudMods.remove(cps);
     }
     public void loadAllModsForceNew()
     {
@@ -70,5 +73,6 @@ public class HudManager {
         hudMods.add(memoryUsedMod = new MemoryUsedMod(true));
         hudMods.add(realTimeDisplay = new RealTimeDisplay(true));
         hudMods.add(keyStrokes = new KeyStrokes(true));
+        hudMods.add(cps = new CPSMod(true));
     }
 }
