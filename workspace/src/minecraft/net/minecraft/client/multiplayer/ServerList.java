@@ -60,6 +60,7 @@ public class ServerList
      * Runs getNBTCompound on each ServerData instance, puts everything into a "servers" NBT list and writes it to
      * servers.dat.
      */
+    //TODO:Note to where to find Featured servers list
     private void loadFeaturedServers()
     {
         this.addServerData(new ServerDataFeatured("Hypixel Network", "hypixel.net"));

@@ -14,7 +14,7 @@ public class TargetHUD extends HudMod {
 
     public TargetHUD()
     {
-        super("TargetHUD", 5, 80, false);
+        super("TargetHUD", 5, 90, false);
     }
     public TargetHUD(boolean forceNew)
     {

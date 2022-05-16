@@ -18,7 +18,7 @@ public class CPSMod extends HudMod {
 
     public CPSMod()
     {
-        super("CPS", 5, 25, false);
+        super("CPS", 5, 65, false);
     }
     public CPSMod(boolean forceNew)
     {

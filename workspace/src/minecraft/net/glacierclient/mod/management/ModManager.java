@@ -1,14 +1,14 @@
 package net.glacierclient.mod.management;
 
-import net.glacierclient.mod.impl.*;
 import net.glacierclient.mod.impl.cosmetics.Capes;
 import net.glacierclient.mod.impl.cosmetics.OneDotSevenAnimations;
+import net.glacierclient.mod.impl.movement.ToggleSprintSneak;
 
 import java.util.ArrayList;
 
 public class ModManager {
 
-    public ToggleSprint toggleSprint;
+    public ToggleSprintSneak toggleSprint;
     public OneDotSevenAnimations oneDotSevenAnimations;
     public Capes capes;
 
@@ -18,7 +18,7 @@ public class ModManager {
     {
         mods = new ArrayList<>();
         //Misc
-        mods.add(toggleSprint = new ToggleSprint());
+        mods.add(toggleSprint = new ToggleSprintSneak());
         mods.add(oneDotSevenAnimations = new OneDotSevenAnimations());
         mods.add(capes = new Capes());
     }
