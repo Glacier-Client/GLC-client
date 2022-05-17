@@ -1115,6 +1115,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         this.checkGLError("Pre render");
         this.mcProfiler.endStartSection("sound");
         this.mcSoundHandler.setListener(this.thePlayer, this.timer.renderPartialTicks);
+        GlacierClient.INSTANCE.modManager.motionBlur.createAccumulation();
         this.mcProfiler.endSection();
         this.mcProfiler.startSection("render");
         GlStateManager.pushMatrix();

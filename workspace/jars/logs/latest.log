@@ -1,158 +1,1801 @@
-[20:54:48] [Client thread/INFO]: Setting user: Player687
-[20:54:48] [Client thread/INFO]: (Session ID is token:0:Player687)
-[20:54:58] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.ItemRecord.getRecordResource
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.preDrawBatch
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.drawBatch
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ISmartBlockModel
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
-[20:54:58] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
-[20:54:58] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
-[20:54:58] [Client thread/INFO]: LWJGL Version: 2.9.4
-[20:54:59] [Client thread/INFO]: [OptiFine] 
-[20:54:59] [Client thread/INFO]: [OptiFine] OptiFine_1.8.8_HD_U_H8
-[20:54:59] [Client thread/INFO]: [OptiFine] Build: null
-[20:54:59] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
-[20:54:59] [Client thread/INFO]: [OptiFine] Java: 1.8.0_322, Temurin
-[20:54:59] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Temurin
-[20:54:59] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
-[20:54:59] [Client thread/INFO]: [OptiFine] OpenGL: AMD Radeon HD 7700 Series, version 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003, ATI Technologies Inc.
-[20:54:59] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.14757
-[20:54:59] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
-[20:54:59] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
-[20:54:59] [Client thread/INFO]: [Shaders] ShadersMod version: 2.4.12
-[20:54:59] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003
-[20:54:59] [Client thread/INFO]: [Shaders] Vendor:  ATI Technologies Inc.
-[20:54:59] [Client thread/INFO]: [Shaders] Renderer: AMD Radeon HD 7700 Series
-[20:54:59] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
-[20:54:59] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
-[20:54:59] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
-[20:54:59] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
-[20:54:59] [Client thread/INFO]: [Shaders] Load ShadersMod configuration.
-[20:54:59] [Client thread/INFO]: [Shaders] Save ShadersMod configuration.
-[20:54:59] [Client thread/INFO]: [Shaders] Shaders can not be loaded, Fast Render is enabled.
-[20:54:59] [Client thread/INFO]: [Shaders] No shaderpack loaded.
-[20:55:00] [Client thread/INFO]: Reloading ResourceManager: Default
-[20:55:00] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
-[20:55:00] [Client thread/INFO]: [OptiFine] Resource packs: Default
-[20:55:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[20:55:01] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[20:55:01] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:55:01] [Thread-8/INFO]: OpenAL initialized.
-[20:55:01] [Sound Library Loader/INFO]: Sound engine started
-[20:55:34] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
-[20:55:34] [Client thread/INFO]: [OptiFine] Multitexture: false
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
-[20:55:34] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
-[20:55:35] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[20:55:37] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
-[20:55:37] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
-[21:32:33] [Client Shutdown Thread/INFO]: Stopping server
+[21:05:14] [Client thread/INFO]: Setting user: Player671
+[21:05:14] [Client thread/INFO]: (Session ID is token:0:Player671)
+[21:05:15] [Client thread/INFO]: [OptiFine] *** Reflector Forge ***
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.Attributes
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: mods.betterfoliage.client.BetterFoliageClient
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.ChunkWatchEvent$UnWatch
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.relauncher.CoreModManager
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.DimensionManager
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Pre
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.GuiScreenEvent$DrawScreenEvent$Post
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$CameraSetup
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.EntityViewRenderEvent$FogColors
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.EventBus
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.eventhandler.Event$Result
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.ExtendedBlockState
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.FMLClientHandler
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.common.FMLCommonHandler
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.biome.BiomeGenBase.getWaterColorMultiplier
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addDestroyEffects
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.addHitEffects
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canCreatureSpawn
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.canRenderInLayer
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.doesSideBlockRendering
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getBedDirection
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.getExtendedState
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.hasTileEntity
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isAir
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBed
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isBedFoot
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.block.Block.isSideSolid
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.canRiderInteract
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.captureDrops
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Field not present: net.minecraft.entity.Entity.capturedDrops
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRenderInPass
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.entity.Entity.shouldRiderSit
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.ForgeEventFactory
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeHooks
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ForgeHooksClient
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getDurabilityForDisplay
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.getModel
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.onEntitySwing
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.shouldCauseReequipAnimation
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.Item.showDurabilityBar
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.item.ItemRecord.getRecordResource
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.ForgeModContainer
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.potion.PotionEffect.isCurativeItem
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.canRenderBreaking
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.getRenderBoundingBox
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.hasFastRenderer
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.tileentity.TileEntity.shouldRenderInPass
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.preDrawBatch
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.drawBatch
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.preDraw
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.client.renderer.vertex.VertexFormatElement$EnumUsage.postDraw
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.countEntities
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.World.getPerWorldStorage
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getCloudRenderer
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getSkyRenderer
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Method not present: net.minecraft.world.WorldProvider.getWeatherRenderer
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.GuiModList
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.IColoredBakedQuad
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.property.IExtendedBlockState
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.IRenderHandler
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ISmartBlockModel
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.ItemModelMesherForge
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraft.launchwrapper.Launch
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.pipeline.LightUtil
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.common.MinecraftForge
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.MinecraftForgeClient
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.model.ModelLoader
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderBlockOverlayEvent$OverlayType
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.registry.RenderingRegistry
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderItemInFrameEvent
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Pre
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Post
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Pre
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.client.event.RenderLivingEvent$Specials$Post
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.fml.client.SplashProgress
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: net.minecraftforge.event.world.WorldEvent$Load
+[21:05:15] [Client thread/INFO]: [OptiFine] *** Reflector Vanilla ***
+[21:05:15] [Client thread/INFO]: [OptiFine] (Reflector) Class not present: optifine.OptiFineClassTransformer
+[21:05:15] [Client thread/INFO]: LWJGL Version: 2.9.4
+[21:05:15] [Client thread/INFO]: [OptiFine] 
+[21:05:15] [Client thread/INFO]: [OptiFine] OptiFine_1.8.8_HD_U_H8
+[21:05:15] [Client thread/INFO]: [OptiFine] Build: null
+[21:05:15] [Client thread/INFO]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[21:05:15] [Client thread/INFO]: [OptiFine] Java: 1.8.0_322, Temurin
+[21:05:15] [Client thread/INFO]: [OptiFine] VM: OpenJDK 64-Bit Server VM (mixed mode), Temurin
+[21:05:15] [Client thread/INFO]: [OptiFine] LWJGL: 2.9.4
+[21:05:15] [Client thread/INFO]: [OptiFine] OpenGL: AMD Radeon HD 7700 Series, version 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003, ATI Technologies Inc.
+[21:05:15] [Client thread/INFO]: [OptiFine] OpenGL Version: 4.6.14757
+[21:05:15] [Client thread/INFO]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[21:05:15] [Client thread/INFO]: [OptiFine] Maximum texture size: 16384x16384
+[21:05:15] [Client thread/INFO]: [Shaders] ShadersMod version: 2.4.12
+[21:05:15] [Client thread/INFO]: [Shaders] OpenGL Version: 4.6.14757 Compatibility Profile Context 20.11.2 27.20.14501.18003
+[21:05:15] [Client thread/INFO]: [Shaders] Vendor:  ATI Technologies Inc.
+[21:05:15] [Client thread/INFO]: [Shaders] Renderer: AMD Radeon HD 7700 Series
+[21:05:15] [Client thread/INFO]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[21:05:15] [Client thread/INFO]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[21:05:15] [Client thread/INFO]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[21:05:15] [Client thread/INFO]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[21:05:15] [Client thread/INFO]: [Shaders] Load ShadersMod configuration.
+[21:05:15] [Client thread/INFO]: [Shaders] Save ShadersMod configuration.
+[21:05:15] [Client thread/INFO]: [Shaders] Shaders can not be loaded, Fast Render is enabled.
+[21:05:15] [Client thread/INFO]: [Shaders] No shaderpack loaded.
+[21:05:15] [Client thread/INFO]: Reloading ResourceManager: Default
+[21:05:15] [Client thread/INFO]: [OptiFine] *** Reloading textures ***
+[21:05:15] [Client thread/INFO]: [OptiFine] Resource packs: Default
+[21:05:16] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[21:05:16] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[21:05:16] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[21:05:16] [Thread-8/INFO]: OpenAL initialized.
+[21:05:17] [Sound Library Loader/INFO]: Sound engine started
+[21:05:17] [Client thread/INFO]: [OptiFine] Mipmap levels: 4
+[21:05:17] [Client thread/INFO]: [OptiFine] Multitexture: false
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_pane_white.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/0_glass_white/glass_white.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_pane_purple.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/10_glass_purple/glass_purple.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_blue.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/11_glass_blue/glass_pane_blue.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_brown.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/12_glass_brown/glass_pane_brown.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_green.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/13_glass_green/glass_pane_green.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_pane_red.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/14_glass_red/glass_red.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_black.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/15_glass_black/glass_pane_black.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_orange.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/1_glass_orange/glass_pane_orange.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_magenta.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/2_glass_magenta/glass_pane_magenta.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_light_blue.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/3_glass_light_blue/glass_pane_light_blue.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_pane_yellow.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/4_glass_yellow/glass_yellow.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_lime.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/5_glass_lime/glass_pane_lime.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pane_pink.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/6_glass_pink/glass_pink.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_gray.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/7_glass_gray/glass_pane_gray.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_pane_silver.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/8_glass_silver/glass_silver.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_cyan.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/9_glass_cyan/glass_pane_cyan.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/bookshelf.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glass.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/glasspane.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] ConnectedTextures: mcpatcher/ctm/default/sandstone.properties
+[21:05:18] [Client thread/INFO]: [OptiFine] Multipass connected textures: false
+[21:05:19] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[21:05:21] [Client thread/INFO]: [OptiFine] *** Reloading custom textures ***
+[21:05:21] [Client thread/INFO]: [OptiFine] Enable face culling: acacia_leaves, birch_leaves, dark_oak_leaves, jungle_leaves, oak_leaves, spruce_leaves
+[21:05:23] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[21:05:23] [Server thread/INFO]: Generating keypair
+[21:05:23] [Server thread/INFO]: Preparing start region for level 0
+[21:05:24] [Server thread/INFO]: Changing view distance to 8, from 10
+[21:05:24] [Server thread/INFO]: SpyMiner[local:E:79a82c05] logged in with entity id 67 at (588.4199761148293, 73.0, 332.1485014115846)
+[21:05:24] [Server thread/INFO]: SpyMiner joined the game
+[21:05:24] [Server thread/INFO]: Saving and pausing game...
+[21:05:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:05:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:05:24] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[21:05:26] [Server thread/INFO]: Saving and pausing game...
+[21:05:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:05:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:05:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:27] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:27] [Client thread/ERROR]: @ Post render
+[21:05:27] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:28] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:28] [Client thread/ERROR]: @ Post render
+[21:05:28] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:39] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:39] [Client thread/ERROR]: @ Post render
+[21:05:39] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:40] [Client thread/ERROR]: @ Post render
+[21:05:40] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Server thread/INFO]: Saving and pausing game...
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:05:41] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:41] [Client thread/ERROR]: @ Post render
+[21:05:41] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Server thread/INFO]: Stopping server
+[21:05:42] [Server thread/INFO]: Saving players
+[21:05:42] [Server thread/INFO]: Saving worlds
+[21:05:42] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:05:42] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:42] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:42] [Client thread/ERROR]: @ Post render
+[21:05:42] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:43] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:43] [Client thread/ERROR]: @ Post render
+[21:05:43] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:44] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:44] [Client thread/ERROR]: @ Post render
+[21:05:44] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:45] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:45] [Client thread/ERROR]: @ Post render
+[21:05:45] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:46] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[21:05:46] [Server thread/INFO]: Generating keypair
+[21:05:46] [Server thread/INFO]: Preparing start region for level 0
+[21:05:46] [Server thread/INFO]: Changing view distance to 8, from 10
+[21:05:46] [Server thread/INFO]: SpyMiner[local:E:1c14595f] logged in with entity id 270 at (588.4199761148293, 73.0, 332.1485014115846)
+[21:05:46] [Server thread/INFO]: SpyMiner joined the game
+[21:05:46] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:46] [Client thread/ERROR]: @ Post render
+[21:05:46] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:46] [Client thread/INFO]: [CHAT] §eOpenGL Error§f: 1282 (Invalid operation)
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:47] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:47] [Client thread/ERROR]: @ Post render
+[21:05:47] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Server thread/INFO]: Saving and pausing game...
+[21:05:48] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:05:48] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:48] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:48] [Client thread/ERROR]: @ Post render
+[21:05:48] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:05:49] [Client thread/ERROR]: ########## GL ERROR ##########
+[21:05:49] [Client thread/ERROR]: @ Post render
+[21:05:49] [Client thread/ERROR]: 1282: Invalid operation
+[21:11:27] [Server thread/INFO]: Saving and pausing game...
+[21:11:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[21:11:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[21:11:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End

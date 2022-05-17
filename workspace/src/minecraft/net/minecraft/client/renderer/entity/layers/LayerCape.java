@@ -1,7 +1,6 @@
 package net.minecraft.client.renderer.entity.layers;
 
-import net.glacierclient.GlacierClient;
-import net.glacierclient.mod.impl.cosmetics.Capes;
+import net.glacierclient.mod.impl.cosmetics.capes.Capes;
 import net.minecraft.client.entity.AbstractClientPlayer;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.entity.RenderPlayer;
